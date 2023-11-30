@@ -6,8 +6,9 @@
 .main1{
     display: inline-flex;
     flex-direction: column;
-    width: 70%;
-    padding: 5% 15%;
+    width: 100%;
+    height: 100vh;
+    
     background-size: cover;
     background-image:url(pexels-felix-mittermeier-956999.jpg) ;
     background-size: cover;  
