@@ -12,26 +12,30 @@
     height: 100vh;
     
     background-size: cover;
-    background-image:url(pexels-felix-mittermeier-956999.jpg) ;
+    background-image:url(cercle-bleu-abstrait-technologie-fond-noir_1142-9770.avif) ;
     background-size: cover;  
 }
 
 .blocSectionMain1{
     display: flex;
-    height: 100%;
     width: 100%;
-    justify-content: center;
+    height: 100vh;
+    justify-content: flex-start;
+    padding-left: 10%;
 
 }
 
 .blocIntroMain1{
     width: calc(100% / 3);
-    margin-top: 20%;
-    text-align: center;
+    margin-top: 15%;
+    text-align: left;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
+}
+.blocIntroMain1 h1{
+    font-size: 65px;
 }
 .navMain1{
     width: 100%;
@@ -50,13 +54,23 @@
     background-color:   rgb(144, 12, 209);
 }
 
-.blocSection2Main1{
-    height: 100%;
+.sectionScolaritéMain1{
     width: 100%;
-    display: inline-flex;
+    display: flex;
+    padding-top: 75vh;
 }
 
+.scolaritéMain1{
+    width: calc(100% / 3);
+    
+}
 
+.titreScolaritéMain1{
+    
+}
+.scolaritéMain1 p{
+    
+}
 
 .footerMain1{
 display: flex;
@@ -72,7 +86,7 @@ color: white;
     display: flex;
     flex-direction: column;  
     width: 90%;
-    justify-content: center;
+    margin: auto;
     border: solid black 2px;
 }
 
