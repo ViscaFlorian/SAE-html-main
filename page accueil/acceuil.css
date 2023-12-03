@@ -5,12 +5,11 @@
 
 
 
-.main1{
+.premier{
     display: inline-flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    
     background-size: cover;
     background-image:url(cercle-bleu-abstrait-technologie-fond-noir_1142-9770.avif) ;
     background-size: cover;  
@@ -18,7 +17,6 @@
 
 .blocSectionMain1{
     display: flex;
-    width: 100%;
     height: 100vh;
     justify-content: flex-start;
     padding-left: 10%;
@@ -30,7 +28,7 @@
     margin-top: 15%;
     text-align: left;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: d;
     
     
 }
@@ -39,29 +37,43 @@
 }
 .navMain1{
     width: 100%;
+    position: fixed;
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
-.lienMain1{
+
+.navMain1 a{
     display: inline-block;
-    width: calc(100% / 5);
+    width: calc(100% / 11);
     font-family: "Clarkson",Helvetica,sans-serif;
     text-decoration: none;
     color : white;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-align: center;
     transition-duration: 0.4s;
 }
 
-.lienMain1:hover{
+a:hover{
     cursor: pointer;
-    background-color:   rgb(144, 12, 209);
+    background-color:   rgb(12, 134, 209)
 }
 
 .sectionScolaritéMain1{
     width: 100%;
+    height: 100vh;
     display: flex;
-    padding-top: 75vh;
+    background-color: blueviolet;
 }
 
 .scolaritéMain1{
     width: calc(100% / 3);
+    color: red;
+    
+    
     
 }
 
@@ -70,13 +82,6 @@
 }
 .scolaritéMain1 p{
     
-}
-
-.footerMain1{
-display: flex;
-justify-content: flex-end;
-color: white;
-
 }
 
 
@@ -165,6 +170,32 @@ padding: 20px;
 
 
 
+
+
+
+
+.test{
+  width: 100%;
+  display: flex;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.test a{
+    padding: 10px 15px;
+}
+
+.cover-vidéo{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+.bloc:hover .cover-vidéo{
+    display: block;
+}
 
 
 
