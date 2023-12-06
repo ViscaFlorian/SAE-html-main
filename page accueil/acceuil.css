@@ -143,37 +143,63 @@ h1{
 
 
 
-
+.body2{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
 
 
 .main2{
     display: flex;
     flex-direction: column;  
-    width: 90%;
-    margin: auto;
-    border: solid black 2px;
+    width: 100%;    
+    height: 100vh;
+    
 }
 
 .h1Main2{
     text-align: center;    
+    width: 100%;
 
 }
 
 .navMain2{
+    width: 100%;
+    padding-top: 40px;
+    font-size: 25px;
     display: inline-block;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+.navMain2 a{
+    display: inline;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color : white;
+    margin-right: 20px;
+    border-radius: 30px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
 
-.gallerieBadMain2{
+.avertissementMain2{
+    font-size: 15px;
+}
+
+.gallerieMain2{
     position: relative;
     width: 100%;
-    margin-top: 5%;
+    padding-top: 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.badMain2{
+    height: 100vh;
 }
 
 .blocMain2{
@@ -214,46 +240,57 @@ h1{
     flex-basis : 50%;
 }
 
+.imageBadMain2{
+    box-shadow:-1px 4px 3px 10px rgba(180, 166, 166, 0.2);
+    border-radius: 20px;
+}
+
+.sectionExplicationMain2{
+    height: 120vh; 
+    padding: 10px 10%;
+    background-color: gray;
+    
+    
+}
 .explicationMain2{
     display: flex;
-    margin: 10% 5%;
+    flex-wrap: wrap;
+    margin: 5%;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background-color: #333;
+}
+
+.imageExplicationMain2{
+    box-shadow:-1px 4px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.explicationMain2 h1{
+    width: 80%;
+    margin: 20px;
+   
 }
 
 .explicationMain2 p{
-width: 70%;
-padding: 20px;
+    width: 70%;
+    padding: 20px;
 }
 
 
 
 
-
-
-    
-
-
-.test{
-  width: 100%;
-  display: flex;
-  color: white;
-  background-color: black;
-  text-align: center;
-  padding: 14px 16px;
+.h1revuMain2{
+    padding-top: 10%;
 }
 
-.test a{
-    padding: 10px 15px;
+.footerMain2{
+    background-color: black;
 }
 
-.cover-vidéo{
-    display: none;
-    position: absolute;
-    min-width: 160px;
-}
 
-.bloc:hover .cover-vidéo{
-    display: block;
-}
+
 
 
 
