@@ -165,13 +165,12 @@ h1{
 }
 
 .navMain2{
-    width: 100%;
     padding-top: 40px;
     font-size: 25px;
     display: inline-block;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .navMain2 a{
